@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Section header sart */
+
+.section-header {
+    background-image: url("img/telsiai.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 33.33vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header h1 {
+    color: white;
+    background-color: lightskyblue;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.section-header p {
+    color: white;
+    background-color: darkblue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}   
+
+/* Section header end */
+
+.section-attractions {
+    border: 1pcs solid black;
+    height: 33.33vh;
+
+}
+
+
+
+
