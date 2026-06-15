@@ -92,6 +92,37 @@ body {
     text-align: center;
 }
 
+/* Guide section */
+.guide-photo {
+    background-image: url(img/guide.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-guide {
+    display: flex;
+    justify-content: center;
+    height: 33.33vh;
+    align-items: center;
+}
+
+.guide-box {
+    display: flex;
+    width: 400px;
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.guide-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 
 
 
