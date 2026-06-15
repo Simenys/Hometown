@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -27,6 +27,7 @@ body {
     background-color: lightskyblue;
     padding: 5px 10px;
     border-radius: 3px;
+    opacity: 0.9;
 }
 
 .section-header p {
@@ -37,6 +38,7 @@ body {
     max-width: 600px;
     text-align: center;
     margin-top: 20px;
+    opacity: 0.8;
 }   
 
 /* Section header end */
@@ -103,6 +105,7 @@ body {
 
 .section-guide {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 33.33vh;
     align-items: center;
@@ -110,7 +113,7 @@ body {
 
 .guide-box {
     display: flex;
-    width: 400px;
+    width: 300px;
     background-color: lightsalmon;
     padding: 10px;
     border-radius: 5px 5px 0 0;
@@ -123,7 +126,11 @@ body {
     text-align: center;
 }
 
-
+.thick-line {
+    width: 320px;
+    height: 5px;
+    background-color: lightcoral;
+}
 
 
 
